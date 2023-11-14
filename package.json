@@ -1,0 +1,35 @@
+{
+  "name": "slashprefix",
+  "version": "2.0.0",
+  "description": "Raven topluluğu için hazırlanmış Slash & Prefix destekli bir proje altyapısı.",
+  "main": "./src/index.cjs",
+  "scripts": {
+    "lint": "cls && prettier --check src/* && eslint . --ext .js --fix",
+    "start": "cls && node --no-warnings --require dotenv/config ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rravencode/discordjs-template.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "romanizm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rravencode/discordjs-template/issues"
+  },
+  "homepage": "https://github.com/rravencode/discordjs-template#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "eslint": "^8.53.0",
+    "glob": "^10.3.10",
+    "prettier": "^3.1.0",
+    "sneaks": "^0.0.1",
+    "utilscord": "^1.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
